@@ -2,7 +2,7 @@
 
 Print `Hello, World` text to **stdout** in assembly.
 
-Compilation and running the ouput files in command line - with a compatible **x86 assembler**, NASM:
+Compile and run the ouput files in command line - with a compatible **x86 assembler**, NASM:
 
 `option - a`: a sequence of four ASCII-encoded strings in x86 assembly.		 
 > will rely on shell command, `cat`, to print to the console.
@@ -57,3 +57,4 @@ Is a sequence of four ASCII-encoded strings in x86 assembly language, defined us
 * `0x0a` represents a newline character (ASCII code 10). This is commonly used in text files to indicate the end of a line.
 
 So when this code is executed, it will simply define these four strings in memory, but it won't actually output them to the console or do anything else with them. If you wanted to output these strings to the console, you would need to use additional assembly instructions to invoke the appropriate system calls or library functions to print them out. Thus the need for **"improving"** it to use system calls.
+> `hello.asm` was written by `Тsфdiиg` - on Twitter.
