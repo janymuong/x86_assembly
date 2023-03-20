@@ -32,7 +32,7 @@ $
 
 ---
 ## `File` `hello_wrld.asm`: 	  
-`hello_msg` string is defined in the `.data` section using the `db` directive. The `10` at the end of the string represents a `newline` character, which will cause the console to move to the next line after printing the message.
+[`hello_msg`](./hello_wrld.asm) string is defined in the `.data` section using the `db` directive. The `10` at the end of the string represents a `newline` character, which will cause the console to move to the next line after printing the message.
 
 In the `.text` section, the `_start` label marks the beginning of the program. The first block of instructions prepares the arguments for the write system call:
 
